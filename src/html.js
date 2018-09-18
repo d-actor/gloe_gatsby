@@ -1,5 +1,5 @@
 import React from 'react';
-import icon from './gloelogo.ico';
+import gloeicon from './gloelogo.ico';
 
 let inlinedStyles = "";
 if (process.env.NODE_ENV === "production") {
@@ -30,7 +30,7 @@ class HTML extends React.Component {
             content="width=device-width, initial-scale=1.0"
           />
           { this.props.headComponents }
-          <link rel="shortcut icon" href={icon} />
+          <link rel="shortcut icon" href={gloeicon} />
           { css }
         </head>
         <body style={styles.background}>
