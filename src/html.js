@@ -1,5 +1,5 @@
 import React from 'react';
-import gloeicon from './gloelogo.ico';
+import gloeicon from './gloelogo.png';
 
 let inlinedStyles = "";
 if (process.env.NODE_ENV === "production") {
