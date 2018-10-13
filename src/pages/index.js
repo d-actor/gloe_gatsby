@@ -1,15 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
+
+const styles = {
+  text: {
+    color: '#FFF',
+  }
+}
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1 style={styles.text}>Stay Tuned...</h1>
   </Layout>
 )
 
 export default IndexPage
+
