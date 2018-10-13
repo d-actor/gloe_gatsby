@@ -1,5 +1,6 @@
 import React from 'react';
 import gloeicon from './gloelogo.png';
+import BackgroundImage from './images/background.jpg';
 
 let inlinedStyles = "";
 if (process.env.NODE_ENV === "production") {
@@ -48,6 +49,8 @@ class HTML extends React.Component {
 const styles = {
   background: {
     background: "#222",
+    backgroundImage: `url(${BackgroundImage})`,
+    backgroundSize: '100%',
   },
 }
 
