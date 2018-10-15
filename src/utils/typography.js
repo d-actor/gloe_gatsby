@@ -1,5 +1,5 @@
 import Typography from 'typography';
-import maragaTheme from 'typography-theme-moraga';
+import moragaTheme from 'typography-theme-moraga';
 
 moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   'h1': {
