@@ -1,5 +1,5 @@
 import React from 'react';
-import gloeicon from './gloelogo.png';
+import gloeicon from './images/gloelogo.ico';
 import BackgroundImage from './images/background.jpg';
 
 let inlinedStyles = "";
