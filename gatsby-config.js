@@ -17,7 +17,7 @@ module.exports = {
       },
       resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: 'src/utils/typgraphy.js',
+        pathToConfigModule: 'src/utils/typography.js',
       },
     },
     'gatsby-plugin-offline',
