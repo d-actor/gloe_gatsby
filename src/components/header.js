@@ -18,7 +18,7 @@ const styles = {
 const Header = ({ siteTitle }) => (
   <div
     style={{
-    padding: '1.0875rem 1.0875rem 1.45rem 1.0875rem',
+    padding: '1.0875rem 1.0875rem 3.25rem 1.0875rem',
     textAlign: 'left',
     }}
   >
