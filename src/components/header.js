@@ -17,6 +17,7 @@ const styles = {
 
 const Header = ({ siteTitle }) => (
   <div
+    class="headerLinks"
     style={{
     padding: '1.0875rem 1.0875rem 3.25rem 1.0875rem',
     textAlign: 'left',
